@@ -1,0 +1,53 @@
+/* chat.css */
+*, html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 85vh;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#chatbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+    width: 800px;
+    background-color: #143895;
+    margin: 0 auto;
+}
+
+#chatbox p {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(88, 165, 88);
+    color: white;
+}
+
+#chat-form {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.nama {
+    width: 10%;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+}
+
+.message {
+    width: 700px;
+    height: 20px;
+}

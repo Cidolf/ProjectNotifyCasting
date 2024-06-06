@@ -1,0 +1,94 @@
+/* Konten */
+.content {
+    height: 550px;
+    width: 100%;
+}
+
+.box-login {
+    margin: auto;
+    width: 400px;
+    height: 350px;
+    background-color: #4D68AE;
+    /* Untuk ke Center Veritkal dan Horizontal  */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+.box-login .judul {
+    color: #E6E6E6;
+    text-align: center;
+    margin: 30px auto 20px;
+    font-size: 24px;
+}
+
+.box-login .input {
+    margin: auto;
+}
+
+.box-login .input input {
+    box-sizing: border-box;
+    margin: 10px;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border-style: solid;
+}
+
+/* Tombol Login */
+
+
+/* .box-login .tombol {
+    margin: auto;
+    margin-top: 10px;
+    height: 40px;
+    width: 350px;
+    line-height: 40px;
+    background-color: #74B243;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #E6E6E6;
+}
+
+.box-login .tombol:hover {
+    margin: auto;
+    margin-top: 10px;
+    height: 40px;
+    width: 350px;
+    line-height: 40px;
+    background-color: #D79E31;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #E6E6E6;
+} */
+
+form .loginbt {
+    background-color: #74B243;
+    color: #E6E6E6;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10px;
+    height: 40px;
+    line-height: 40px;
+    width: 350px;
+}
+
+/* Tutup Tombol Login*/
+
+.confirm {
+    margin-top: 20px;
+    color: #E6E6E6;
+    font-size: 15px;
+}
+
+.confirm a {
+    color: #D79E31;
+}
+
+/* Tutup Konten */

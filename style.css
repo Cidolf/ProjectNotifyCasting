@@ -1,0 +1,76 @@
+/* chat.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#chatbox {
+    height: 400px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0;
+}
+
+#chatbox p {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(88, 165, 88);
+    color: white;
+}
+
+.chat-entry {
+    margin-bottom: 10px;
+}
+
+.chat-entry p {
+    background-color: rgb(104, 184, 104);
+    color: white;
+    padding: 10px;
+}
+
+.chat-line {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 5px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0069d9;
+}

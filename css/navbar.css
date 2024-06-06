@@ -1,0 +1,43 @@
+/* Navbar */
+.nav,
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: #143895;
+    line-height: 50px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.containerr {
+    text-decoration: none;
+}
+
+.nav .containerr .navbar ul {
+    float: right;
+}
+
+.nav .containerr .navbar ul li {
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+}
+
+.nav .containerr .navbar ul li a {
+    color: #E6E6E6;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav .containerr .logo {
+    font-size: 20px;
+    float: left;
+}
+
+.nav .containerr .logo a {
+    color: #E6E6E6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Tutup Navbar */

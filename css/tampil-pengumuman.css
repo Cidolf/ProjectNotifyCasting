@@ -1,0 +1,57 @@
+.isi-web {
+    height: 600px;
+    box-sizing: border-box;
+}
+
+.blok {
+    margin-top: 50px;
+
+}
+
+.topper {
+    height: 30px;
+    line-height: 30px;
+    color: #E6E6E6;
+    text-align: center;
+    background-color: #74B243;
+    width: 20%;
+}
+
+.box-tampil {
+    height: 450px;
+    box-sizing: border-box;
+    background-color: #4D68AE;
+    float: left;
+    width: 65%;
+    padding: 30px;
+    color: #E6E6E6;
+}
+
+.judul {
+    font-weight: bold;
+}
+
+.list-tampil {
+    width: 35%;
+    float: right;
+}
+
+.box {
+    padding: 20px;
+    height: 70px;
+    background-color: rgb(219, 219, 219);
+    width: 80%;
+}
+
+.box:hover {
+    padding: 20px;
+    height: 70px;
+    background-color: rgb(197, 197, 197);
+    width: 80%;
+}
+
+.deskripsi {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kritik dan Saran</title>
+    <link rel="stylesheet" href="css/kritikSaran.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="containerr">
+            <div class="logo">
+                <a href="">NotifyCast</a>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="pengumuman.php">Pengumuman</a></li>
+                    <li><a href="chat.html">Chat</a></li>
+                    <li><a href="kritikSaran.html">Kritik dan Saran</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div>
+            <h1>Kritik dan Saran</h1>
+            <form id="feedback-form" action="save_feedback.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+                </div>
+                <div class="form-group">
+                    <label for="critic">Kritik:</label>
+                    <textarea id="critic" name="critic" rows="4" placeholder="Tuliskan kritik Anda" required></textarea>
+                </div>
+                <button type="submit">Kirim</button>
+            </form>
+            <div id="response-message"></div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="containerr">
+            <p>Kelompok 5 ADSI | PTIK D 2021</p>
+        </div>
+    </footer>
+    <script src="js/kritiksaran.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+/* About Us */
+
+.isi-about {
+    text-align: center;
+    height: 550px;
+    box-sizing: border-box;
+
+}
+
+.isi-about .isi-1 {
+    margin: 50px;
+}
+
+.isi-about .isi-2 .anggota table {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.isi-about .isi-2 .anggota table tr td {
+    text-align: center;
+}
+
+.isi-about .isi-2 .anggota table tr td h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.isi-about .isi-2 .anggota table tr td img {
+    width: 200px;
+}
